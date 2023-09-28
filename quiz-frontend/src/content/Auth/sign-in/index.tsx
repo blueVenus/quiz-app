@@ -44,7 +44,7 @@ const LoginPage = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
   const { login } = useAuth();
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  // const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const handleLogin = async () => {
     try {
@@ -96,11 +96,11 @@ const LoginPage = () => {
             id="password"
             autoComplete="current-password"
           />
-          {errorMessage && (
+          {/* {errorMessage && (
             <Typography variant="body2" color="error">
               {errorMessage}
             </Typography>
-          )}
+          )} */}
           <FormControlLabel
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"

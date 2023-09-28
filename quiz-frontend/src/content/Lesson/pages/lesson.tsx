@@ -4,7 +4,7 @@ import { makeStyles } from "@mui/styles";
 import { useParams } from "react-router-dom";
 import { Problem } from "../components";
 import http from "../../../api";
-import { AnswerPropsType, ProblemPropsType } from "../components/ProblemProps";
+import { AnswerPropsType, ProblemPropsType } from "../types/ProblemProps";
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {

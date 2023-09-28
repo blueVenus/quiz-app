@@ -12,7 +12,8 @@ import {
 import { makeStyles } from "@mui/styles";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import http from "../../api";
+import http from "../../../api";
+import { LessonPropsType } from "../types";
 
 const useStyles: any = makeStyles((theme: Theme) => ({
   header: {
@@ -63,12 +64,6 @@ const useStyles: any = makeStyles((theme: Theme) => ({
     padding: "50px"
   }
 }));
-
-interface LessonPropsType {
-  id: number,
-  number: number,
-  description: string
-}
 
 const DashboardPage = () => {
 

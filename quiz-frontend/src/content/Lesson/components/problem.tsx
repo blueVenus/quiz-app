@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-import { AnswerPropsType, ChoicePropsType, ProblemProps } from "./ProblemProps";
+import { ChoicePropsType, ProblemProps } from "../types/ProblemProps";
 
 const useStyles = makeStyles((theme: Theme) => ({
   answersField: {

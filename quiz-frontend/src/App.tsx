@@ -6,12 +6,12 @@ import {
   Navigate,
 } from "react-router-dom";
 import theme from "./theme";
-import DashboardPage from "./content/dashboard";
 import AuthPage from "./content/Auth";
 import { LessonPage } from "./content/Lesson/pages";
 import SignInPage from "./content/Auth/sign-in";
 // import SignUpPage from "./content/Auth/sign-up";
 import { QueryClient, QueryClientProvider } from "react-query";
+import { DashboardPage } from "./content/dashboard/pages";
 
 const queryClient = new QueryClient();
 
